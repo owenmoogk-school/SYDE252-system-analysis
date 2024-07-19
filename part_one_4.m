@@ -5,7 +5,7 @@ x_scaled(t) = 2 * (cos(10*t) + cos(1000*t));
 
 % Define the ODE
 ode = y(t)*100 + diff(y(t), t) + 500 == x(t)*100;
-scaled_ode = y(t)*100 + diff(y(t), t) + 5 == x_scaled(t)*100;
+scaled_ode = y(t)*100 + diff(y(t), t) + 500 == x_scaled(t)*100;
 
 % Define the initial condition
 initialCondition = y(0) == -2;

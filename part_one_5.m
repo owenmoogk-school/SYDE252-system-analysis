@@ -1,4 +1,4 @@
-% Define the time vector for solving
+    % Define the time vector for solving
 tValues = linspace(0, 1, 10000); % 100 points from 0 to 1
 
 % Define the initial condition
@@ -23,7 +23,7 @@ plot(tSolScaled, ySolScaled, 'k', 'LineWidth', 2);
 xlabel('Time t');
 ylabel('y(t)');
 title('Response of y(t)');
-legend('Original ODE', 'Scaled ODE');
+legend('Original Input', 'Shifted Input');
 grid on;
 xlim([0, 1]); % Horizontal limits
 ylim([-2, 2]); % Vertical limits

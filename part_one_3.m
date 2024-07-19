@@ -1,5 +1,7 @@
+% y and x are symbolic functions
 syms y(t) x(t)
 
+% define x as the input function
 x(t) = cos(10*t) + cos(1000*t);
 
 % Define the ODE
@@ -14,6 +16,7 @@ ySol(t) = dsolve(ode, initialCondition);
 % Display the solution
 disp(ySol)
 
+% evaluate the function through a range of t, and plot
 syms t
 ySol(t) = ySol(t); % Ensure ySol is defined
 

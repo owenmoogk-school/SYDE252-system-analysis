@@ -37,5 +37,4 @@ xlabel('Time t');
 ylabel('y(t)');
 title('Response of y(t)');
 grid on;
-xlim([0, 1]); % Horizontal limits
-ylim([-2, 2]); % Vertical limits
+legend('Original Input', 'Scaled Input');

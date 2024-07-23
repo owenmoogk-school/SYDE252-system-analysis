@@ -25,5 +25,3 @@ ylabel('y(t)');
 title('Response of y(t)');
 legend('Original Input', 'Shifted Input');
 grid on;
-xlim([0, 1]); % Horizontal limits
-ylim([-2, 2]); % Vertical limits
